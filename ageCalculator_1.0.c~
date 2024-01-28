@@ -6,9 +6,9 @@ int main(void)
 	int currentYear;
 
 	printf("Enter your birth year: ");
-	scanf("%i", &birthYear);
+	scanf("%i", birthYear);
 	printf("Enter the current year: ");
-	scanf("%i", &currentYear);
+	scanf("%i", currentYear);
 
 	int ageCalculator = currentYear - birthYear;
 
